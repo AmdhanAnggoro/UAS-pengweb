@@ -1,0 +1,35 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development Project</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Client-side Programming</h1>
+    <form id="myForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" required>
+
+        <label for="checkbox">Checkbox:</label>
+        <input type="checkbox" id="checkbox" name="checkbox">
+
+        <label for="radio">Radio:</label>
+        <input type="radio" id="radio1" name="radio" value="option1"> Option 1
+        <input type="radio" id="radio2" name="radio" value="option2"> Option 2
+
+        <button type="button" onclick="submitForm()">Submit</button>
+    </form>
+
+    <table id="dataTable">
+        <!-- Data will be displayed here -->
+    </table>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
